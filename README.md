@@ -170,6 +170,7 @@ Thus the C program to String process executed successfully.
 Write a c program to read and display an array of any 6 integer elements using pointer.
 
 ## ALGORITHM
+```
 Step 1: Start the program.
 Step 2: Declare the following:
 •	Integer variable i for iteration.
@@ -182,7 +183,7 @@ Step 4: Loop from i = 0 to i < n:
 Step 5: Loop from i = 0 to i < n:
 •	Print the element at *(parr + i) using pointer dereferencing.
 Step 6: End the program.
-
+```
 
 ## PROGRAM
 ```
