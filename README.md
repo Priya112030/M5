@@ -10,9 +10,21 @@ Write a C program to convert a 23.65 into 25 using pointer
 
 ## PROGRAM:
 ```
+#include <stdio.h>
 
+int main() {
+    float num = 23.65;
+    float *ptr = &num;
+
+    *ptr = 25.0;
+
+    printf("Converted value: %.2f\n", num);
+
+    return 0;
+}
 ```
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/012c6efa-a1b5-4d1c-b868-c948919055cf)
 
 
 ## RESULT:
@@ -69,10 +81,31 @@ Write C Program to find Sum of each row of a Matrix
 
 ## PROGRAM:
 ```
-
+#include<stdio.h>
+int main()
+{
+    int m,n,i,j;
+    scanf("%d %d",&m,&n);
+    int arr[m][n];
+    for (i=0;i<m;i++){
+        for (j=0;j<n;j++){
+            scanf("%d",&arr[i][j]);
+        }
+    }
+    printf("Sum of each row:\n");
+    for (i=0;i<m;i++){
+        int sum=0;
+        for (j=0;j<n;j++){
+            sum+=arr[i][j];
+        }
+        printf("Row %d sum = %d\n",i+1,sum);
+    }
+    return 0;
+}
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-27 153309](https://github.com/user-attachments/assets/5fb8bee3-56ed-4a02-97d2-f6bb9bee9137)
 
 
 ## RESULT
@@ -152,12 +185,30 @@ Step 6: End the program.
 
 ## PROGRAM
 ```
+#include <stdio.h>
 
+int main() {
+    int arr[6];
+    int *ptr = arr;
+    printf("Enter 6 integers:\n");
+    for (int i = 0; i < 6; i++) {
+        scanf("%d", (ptr + i));
+    }
+
+    printf("The entered elements are:\n");
+    for (int i = 0; i < 6; i++) {
+        printf("%d ", *(ptr + i));
+    }
+
+    printf("\n");
+    return 0;
+}
 ```
 
 ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/5911289a-ef24-49ec-9025-4f86e7be6de9)
 
 ## RESULT
-
+Thus the C program to read and display an array of any 6 integer elements using pointer has been executed.
 
 
