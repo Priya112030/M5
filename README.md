@@ -24,7 +24,8 @@ int main() {
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/012c6efa-a1b5-4d1c-b868-c948919055cf)
+![image](https://github.com/user-attachments/assets/4c9f16e9-57f4-4ce8-92f1-53c773742e5e)
+
 
 
 ## RESULT:
@@ -206,7 +207,7 @@ int main() {
 ```
 
 ## OUTPUT
- ![image](https://github.com/user-attachments/assets/5911289a-ef24-49ec-9025-4f86e7be6de9)
+ ![image](https://github.com/user-attachments/assets/2b76a89b-8b8a-4a78-89fb-d4b7a69efcbf)
 
 ## RESULT
 Thus the C program to read and display an array of any 6 integer elements using pointer has been executed.
